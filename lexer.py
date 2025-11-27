@@ -53,21 +53,3 @@ def t_error(t):
 # Construir lexer
 lexer = lex.lex()
 
-data = '''
-    {
-  "folio": 15502427,
-  "fecha_toma": "14/06/2020 07:51:57",
-  "fecha_validacion": "14/06/2020 17:08:05",
-  "paciente": {
-    "nombre": "Ramírez Guzmán, María",
-    "fecha_nacimiento": "25/04/1985",
-    "sexo": "F",
-    "edad": 35
-  }
-}
-    '''
-
-lexer.input(data)
-
-for tok in lexer:
-    print(tok)
