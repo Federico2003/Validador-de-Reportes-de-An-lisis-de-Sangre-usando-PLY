@@ -33,7 +33,7 @@ def t_STRING(t):
     return t
 
 # -------------------------
-# NUMBER: solo enteros (para este proyecto basta)
+# NUMBER: solo enteros 
 # -------------------------
 def t_NUMBER(t):
     r'\d+'
